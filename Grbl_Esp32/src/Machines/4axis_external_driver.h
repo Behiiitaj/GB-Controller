@@ -61,8 +61,8 @@
 #define Y_DIRECTION_PIN         I2SO(2)
 #define Z_STEP_PIN              GPIO_NUM_25
 #define Z_DIRECTION_PIN         I2SO(3)
-#define A_STEP_PIN              GPIO_NUM_26
-#define A_DIRECTION_PIN         I2SO(4)
+#define B_STEP_PIN              GPIO_NUM_26
+#define B_DIRECTION_PIN         I2SO(4)
 //#define STEPPERS_DISABLE_PIN    GPIO_NUM_13
 
 
@@ -91,6 +91,6 @@
 
 
 #if (N_AXIS != 3)
-        #define A_LIMIT_PIN     GPIO_NUM_35
+        #define B_LIMIT_PIN     GPIO_NUM_35
 #endif
 

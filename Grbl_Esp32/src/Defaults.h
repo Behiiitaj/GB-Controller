@@ -59,7 +59,7 @@
 #endif
 
 #ifndef DEFAULT_DIRECTION_INVERT_MASK
-#    define DEFAULT_DIRECTION_INVERT_MASK 0  // $3 uint8_
+#    define DEFAULT_DIRECTION_INVERT_MASK 23  // $3 uint8_
 #endif
 
 #ifndef DEFAULT_INVERT_ST_ENABLE
@@ -71,7 +71,7 @@
 #endif
 
 #ifndef DEFAULT_INVERT_PROBE_PIN
-#    define DEFAULT_INVERT_PROBE_PIN 0  // $6 boolean
+#    define DEFAULT_INVERT_PROBE_PIN 1  // $6 boolean
 #endif
 
 #ifndef DEFAULT_STATUS_REPORT_MASK
@@ -99,11 +99,11 @@
 #endif
 
 #ifndef DEFAULT_HARD_LIMIT_ENABLE
-#    define DEFAULT_HARD_LIMIT_ENABLE 0  // $21 false
+#    define DEFAULT_HARD_LIMIT_ENABLE 1  // $21 false
 #endif
 
 #ifndef DEFAULT_HOMING_ENABLE
-#    define DEFAULT_HOMING_ENABLE 0  // $22 false
+#    define DEFAULT_HOMING_ENABLE 1  // $22 false
 #endif
 
 #ifndef DEFAULT_HOMING_DIR_MASK
@@ -111,11 +111,11 @@
 #endif
 
 #ifndef DEFAULT_HOMING_FEED_RATE
-#    define DEFAULT_HOMING_FEED_RATE 200.0  // $24 mm/min
+#    define DEFAULT_HOMING_FEED_RATE 4000  // $24 mm/min
 #endif
 
 #ifndef DEFAULT_HOMING_SEEK_RATE
-#    define DEFAULT_HOMING_SEEK_RATE 2000.0  // $25 mm/min
+#    define DEFAULT_HOMING_SEEK_RATE 4000  // $25 mm/min
 #endif
 
 #ifndef DEFAULT_HOMING_DEBOUNCE_DELAY
@@ -123,7 +123,7 @@
 #endif
 
 #ifndef DEFAULT_HOMING_PULLOFF
-#    define DEFAULT_HOMING_PULLOFF 1.0  // $27 mm
+#    define DEFAULT_HOMING_PULLOFF 20  // $27 mm
 #endif
 
 #ifndef DEFAULT_HOMING_SQUARED_AXES
@@ -172,7 +172,7 @@
 #endif
 
 #ifndef DEFAULT_SPINDLE_RPM_MAX             // $30
-#    define DEFAULT_SPINDLE_RPM_MAX 1000.0  // rpm
+#    define DEFAULT_SPINDLE_RPM_MAX 300  // rpm
 #endif
 
 #ifndef DEFAULT_SPINDLE_FREQ
@@ -192,7 +192,7 @@
 #endif
 
 #ifndef DEFAULT_SPINDLE_DELAY_SPINUP
-#    define DEFAULT_SPINDLE_DELAY_SPINUP 0
+#    define DEFAULT_SPINDLE_DELAY_SPINUP 5000
 #endif
 
 #ifndef DEFAULT_COOLANT_DELAY_TURNON
@@ -323,22 +323,22 @@
 // ========= AXIS MAX TRAVEL ============
 
 #ifndef DEFAULT_X_MAX_TRAVEL
-#    define DEFAULT_X_MAX_TRAVEL 300.0  // $130 mm NOTE: Must be a positive value.
+#    define DEFAULT_X_MAX_TRAVEL 5000  // $130 mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_Y_MAX_TRAVEL
-#    define DEFAULT_Y_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_Y_MAX_TRAVEL 5000  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_Z_MAX_TRAVEL
-#    define DEFAULT_Z_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_Z_MAX_TRAVEL 5000  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_A_MAX_TRAVEL
-#    define DEFAULT_A_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_A_MAX_TRAVEL 5000  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_B_MAX_TRAVEL
-#    define DEFAULT_B_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_B_MAX_TRAVEL 5000  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_C_MAX_TRAVEL
-#    define DEFAULT_C_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_C_MAX_TRAVEL 5000  // mm NOTE: Must be a positive value.
 #endif
 
 #ifndef DEFAULT_X_HOMING_MPOS

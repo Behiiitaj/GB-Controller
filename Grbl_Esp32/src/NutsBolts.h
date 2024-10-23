@@ -38,8 +38,8 @@ const double SOME_LARGE_VALUE = 1.0E+38;
 const int X_AXIS = 0;  // Axis indexing value.
 const int Y_AXIS = 1;
 const int Z_AXIS = 2;
-#define A_AXIS 3
-#define B_AXIS 4
+#define A_AXIS 4
+#define B_AXIS 3
 #define C_AXIS 5
 
 const int MAX_AXES   = 6;
